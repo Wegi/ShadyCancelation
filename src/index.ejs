@@ -9,6 +9,17 @@ eleventyComputed:
   title: '<% if (pagination.pageNumber > 0) { %><%= `Page ${pagination.pageNumber + 1} | ${site.title}` %><% } else { %><%= site.title %><% } %>'
 ---
 
+<h2>List of known Offenders</h2>
+<ul>
+  <% for offender in collections.offenders => { %>
+  <li class="mb-3 flex justify-between">
+    <p><%= offender.data.name %></p>
+    <p><%= offender.data.type %></p>
+    <p><%= offender.data.description %></p>
+  </li>
+  <% }) %>
+</ul>
+
 <ul>
   <% list.forEach((post) => { %>
   <li class="mb-3 flex justify-between">
