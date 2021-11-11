@@ -1,8 +1,8 @@
 {
-  "site_name": "Starter",
-  "title": "Eleventy Starter Boilerplate",
-  "description": "Starter code for your 11ty blog Boilerplate",
-  "url": "https://example.com",
+  "site_name": "ShadyCancelation",
+  "title": "Shady Cancelation Register",
+  "description": "Listing services and products with shady cancelation practices – so you know beforehand",
+  "url": "https://shadycancelation.com",
   "locale": "en",
-  "author": "Anonymous"
+  "author": "Alexander Schneider (WeGi)"
 }
