@@ -50,9 +50,7 @@
     "webpack-cli": "^4.7.0"
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    
   },
   "lint-staged": {
     "*.js": [

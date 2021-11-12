@@ -11,7 +11,7 @@ eleventyComputed:
 
 <h2>List of known Offenders</h2>
 <ul>
-  <% for offender in collections.offenders => { %>
+  <% collections.offenders.forEach((offender) => { %>
   <li class="mb-3 flex justify-between">
     <p><%= offender.data.name %></p>
     <p><%= offender.data.type %></p>
